@@ -11,6 +11,9 @@
       <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
     </h1>
 
+    <div class="ribbon">
+    </div>
+
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
