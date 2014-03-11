@@ -25,6 +25,7 @@
   <!-- FONTS -->
   <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
   <!-- /FONTS -->
 
   <!-- STYLES -->
@@ -35,8 +36,6 @@
 <body>
 
   <div class="global">
-
-    <%-@partial('nav.html.eco', @)%>
     <%-@partial('header.html.eco', @)%>
 
     <!-- CONTENT -->
