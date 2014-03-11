@@ -7,34 +7,22 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Web.br 2014",
+      description: "Conferência Web W3C Brasil 2014",
+      //date: "November 15",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
-    },
-
-    // The Call To Action button at the header,
-    // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+      //price: "$100",
+      //venue: "Coco Bongo",
+      //address: "Boulevard Kukulcan, 30",
+      city: "São Paulo",
+      state: "SP"
     },
 
     // Site info
     site: {
-      theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      theme: "webbr2014-lp"
+      //url: "http://braziljs.github.io/conf-boilerplate/",
+      //googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website
@@ -42,17 +30,17 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'location',
-      'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
+      //'location',
+      //'speakers',
+      //'schedule',
+      //'sponsors',
+      //'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
+      about: "Sobre",
       location: "Location",
       speakers: "Speakers",
       schedule: "Schedule",
