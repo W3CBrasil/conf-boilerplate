@@ -22,6 +22,11 @@
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
 
+  <!-- FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+  <!-- /FONTS -->
+
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
   <!-- / STYLES -->

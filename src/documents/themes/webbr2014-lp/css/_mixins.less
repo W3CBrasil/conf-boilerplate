@@ -7,13 +7,29 @@
 }
 
 .box-sizing (@val) {
-	-moz-box-sizing: @val;
-	-ms-box-sizing: @val;
-	-webkit-box-sizing: @val;
-	box-sizing: @val;
+    -moz-box-sizing: @val;
+    -ms-box-sizing: @val;
+    -webkit-box-sizing: @val;
+    box-sizing: @val;
 }
 
 .text-size-adjust (@val) {
-	-webkit-text-size-adjust: @val;
-	-ms-text-size-adjust: @val;
+    -webkit-text-size-adjust: @val;
+    -ms-text-size-adjust: @val;
+}
+
+.gradient-2clr(@val, @val2){
+    background: #val;
+    background: -webkit-gradient(linear, left top, left bottom, from(@val), to(@val2));
+    background: -webkit-linear-gradient(top, @val, @val2);
+    background: -moz-linear-gradient(top, @val, @val2);
+    background: -ms-linear-gradient(top, @val, @val2);
+    background: -o-linear-gradient(top, @val, @val2);
+    background-image: -ms-linear-gradient(top, @val 0%, @val2 100%);
+}
+
+.box-shadow(@color, @val1, @val2, val3){
+    -webkit-box-shadow: @color @val1, @val2, @val3
+    -moz-box-shadow: @color @val1, @val2, @val3
+    box-shadow: @color @val1, @val2, @val3
 }
