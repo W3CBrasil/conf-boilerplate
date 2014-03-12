@@ -4,12 +4,12 @@
    MAIN LAYOUT
    ========================================================================== */
 .wrapper {
-  margin: 0 auto;
-  width:960px;
+  margin: 0 auto 0;
+  width: 1060px;
   position:relative;
 }
-.content {}
-.content section {padding-top: 50px;}
+.content {margin-top: -95px;}
+.content section {}
 
 /* =============================================================================
    BASIC STYLES
@@ -52,7 +52,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 50px 0 100px;
+  position: relative;
 }
 .logo-name {
   margin-bottom: 0;
@@ -87,9 +87,24 @@ nav {
    ABOUT
    ========================================================================== */
 .about {
-  padding:19px;
-  margin: 0 -20px 0;
+  padding: 0;
+  margin: 0;
+  .flex-box();
 }
+
+.about-cols{
+    width: 35%;
+    box-sizing: border-box;
+    margin: 0;
+    &:first-child{
+        width: 55%;
+    }
+}
+
+.about-cols iframe{
+    margin-bottom: 20px;
+}
+
 
 /* =============================================================================
    SPEAKER
@@ -207,8 +222,6 @@ nav {
 .form textarea {height:300px;}
 .form .btn {float:right;}
 
-
-
 /* =============================================================================
    Media Queries
    ========================================================================== */
@@ -291,7 +304,7 @@ nav {
 
   /* content */
   .content {padding: 0;}
-  .content section {padding-top: 50px;}
+  .content section {}
 
   /* speakers */
   .speakers-item {

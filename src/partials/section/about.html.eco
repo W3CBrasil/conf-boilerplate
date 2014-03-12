@@ -1,6 +1,18 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
-
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<article class="about-cols">
+    <section class="atracoes">
+        <h2 class="box">Atração das edições anteriores</h2>
+        <div class="box fernanda">
+            <h3>Fernanda Weiden</h3>
+        </div>
+        <div class="box kris">
+            <h3>Kris Borchers</h3>
+        </div>
+    </section>
+</article>
+<aside class="about-cols">
+    <iframe width="371" height="240" src="//www.youtube.com/embed/Vd8TZGgkgO0" frameborder="0" allowfullscreen></iframe>
+    <section class="box sobre">
+        <h2 class="section-title"><%= @labels['about'] %></h2>
+        <p>A World Wide Web é importante no desenvolvimento social e econômico através da disseminação de informação, cultura, e geração de novos negócios no pais. Um dos eventos mais importantes na área, a Conferência Web.br debate temáticas que impactam a sociedade e que contribuem para a conscientização da importância do seu desenvolvimento permanente e continuado.</p>
+    </section>
+</aside>

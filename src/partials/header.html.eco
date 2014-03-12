@@ -9,8 +9,8 @@
   <div class="wrapper">
     <h1 class="logo-name">
       <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"></a>
+      <div class="ribbon">2014</div>
     </h1>
-    <div class="ribbon"></div>
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>

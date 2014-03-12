@@ -23,9 +23,8 @@
   <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
 
   <!-- FONTS -->
-  <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
   <!-- /FONTS -->
 
   <!-- STYLES -->
@@ -44,6 +43,7 @@
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
+            <a href="http://cgi.br/" class="organizacao"><img src="themes/webbr2014-lp/img/logo_w3c_nic_cgi.png" height="163" width="600" alt="W3C Brasil, NIC.br, CGI.br"></a>
           <p>Made with ♥ by <a href="http://confboilerplate.com">Conf Boilerplate</a> :)</p>
         </footer>
         <!-- / FOOTER -->
@@ -63,17 +63,7 @@
   <% end %>
 
   <!-- GOOGLE ANALYTICS -->
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '<%= @site.googleanalytics %>']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
+  
   <!-- /GOOGLE ANALYTICS -->
 
 </body>
