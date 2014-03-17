@@ -1,11 +1,21 @@
 <article class="about-cols">
     <section class="atracoes">
-        <h2 class="box">Atração das edições anteriores</h2>
+        <div class="box">
+            <h2>Atração das edições anteriores</h2>
+        </div>
         <div class="box fernanda">
             <h3>Fernanda Weiden</h3>
+            <p>
+                Gerente de Engenharia de Produção no Facebook
+                <img src="themes/webbr2014-lp/img/fernanda_weiden.png" alt="Fernanda Weiden">
+            </p>
         </div>
         <div class="box kris">
             <h3>Kris Borchers</h3>
+            <p>
+                Diretor Executivo na jQuery Foundation
+                <img src="themes/webbr2014-lp/img/kris_borchers.png" alt="Kris Borchers">
+            </p>
         </div>
     </section>
 </article>

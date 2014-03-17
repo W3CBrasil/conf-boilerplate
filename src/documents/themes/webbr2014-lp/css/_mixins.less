@@ -28,6 +28,19 @@
     background-image: -ms-linear-gradient(top, @val 0%, @val2 100%);
 }
 
+.gradient-2clr-diag(@val, @val2){
+
+    background: @val; /* Old browsers */
+    background: -moz-linear-gradient(45deg, @val 0%, @val 51%, @val2 51%, @val2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,@val), color-stop(51%,@val), color-stop(51%,@val2), color-stop(100%,@val2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, @val 0%,@val 51%,@val2 51%,@val2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, @val 0%,@val 51%,@val2 51%,@val2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, @val 0%,@val 51%,@val2 51%,@val2 100%); /* IE10+ */
+    background: linear-gradient(45deg, @val 0%,@val 51%,@val2 51%,@val2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@val', endColorstr='@val2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
 .mx-box-sdw(@color, @val1, @val2, val3){
     -webkit-box-shadow: @color @val1 @val2 @val3;
     -moz-box-shadow: @color @val1 @val2 @val3;

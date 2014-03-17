@@ -30,6 +30,7 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'newsletter',
       'location',
       //'speakers',
       //'schedule',
@@ -41,6 +42,7 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "Sobre",
+      newsletter: "Newsletter",
       location: "Local",
       speakers: "Speakers",
       schedule: "Agenda",

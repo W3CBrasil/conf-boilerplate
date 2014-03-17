@@ -43,8 +43,14 @@
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
-            <a href="http://cgi.br/" class="organizacao"><img src="themes/webbr2014-lp/img/logo_w3c_nic_cgi.png" height="163" width="600" alt="W3C Brasil, NIC.br, CGI.br"></a>
-          <p>Made with ♥ by <a href="http://confboilerplate.com">Conf Boilerplate</a> :)</p>
+            <section class="wlogos">
+                <img src="themes/webbr2014-lp/img/web25-logo.svg" alt="Web 25 anos">
+                <img src="themes/webbr2014-lp/img/w3c20-logo.svg" alt="W3C 20 anos">
+            </section>
+            <section>
+                <a href="http://cgi.br/" class="organizacao"><img src="themes/webbr2014-lp/img/logo_w3c_nic_cgi.png" height="163" width="600" alt="W3C Brasil, NIC.br, CGI.br"></a>
+            </section>
+            <p>Made with ♥ by <a href="http://confboilerplate.com">Conf Boilerplate</a> :)</p>
         </footer>
         <!-- / FOOTER -->
       </div>

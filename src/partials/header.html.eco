@@ -13,7 +13,6 @@
     <div class="slogan">Fica! Vai ter bolo!</div>
     <div class="data"><%= @conf.date %></div>
     <div class="ribbon">2014</div>
-    <!-- <img src="themes/webbr2014-lp/img/web25-logo.svg" alt=""> -->
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>

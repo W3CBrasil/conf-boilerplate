@@ -7,7 +7,8 @@
 @header-dark: #ab2c2c;
 @rib-txt-sh: #FFE8BA;
 @rib-txt: #442F06;
-@pontoBR: #ba3737;
+@verde: #7AC143;
+@azul: #0078AE;
 
 /* topo verde */
 /*@header-light: #7AC143;
@@ -36,9 +37,7 @@ h1, h2, h3, h4, h5, h6 {color:#222; font-family: 'Francois One', sans-serif;}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {
-    .gradient-2clr(#2b2b2b, #222);
-}
+nav {.gradient-2clr(#2b2b2b, #222);}
 .nav-link {color:#e7e7e7;}
 .nav-link:active,
 .nav-link:hover,
@@ -52,7 +51,7 @@ nav {
   background-size: 100% auto;
  .gradient-2clr(@header-light, @header-dark);
  /*.mx-box-sdw(rgba(000,000,000,0.3), 0, 1px, 1px);*/
-    padding: 50px 0 160px;
+  padding: 80px 0 160px;
 }
 
 .logo-name {
@@ -92,7 +91,7 @@ nav {
     top: -50px;
     right: 5%;
     background: url(../img/ribbon.svg) no-repeat 0 0;
-    padding: 70px 0 0 16px;
+    padding: 100px 0 0 16px;
     box-sizing: border-box;
     font-family: 'Francois One', sans-serif;
     text-shadow: 1px 1px 0px @rib-txt-sh;
@@ -142,17 +141,54 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about h2{}
+.about{
+    color: #fff;
+    text-shadow: 2px 1px 0px rgb(90,159,34);
+
+    h2,h3 {
+        color: #f2f2f2;
+        text-shadow: 3px 3px 0px rgba(80,80,80,0.5)
+    }
+}
 
 .about-cols{}
 
 .about .box{
-    .gradient-2clr(#27709b, #24688f);
-    border-radius:4px;
-    margin-bottom: 20px;
+    background: @azul;
+    margin-bottom: 25px;
     box-sizing: border-box;
-    padding: 20px;
+    box-shadow: 5px 5px 0px rgba(18,62,88,0.9);
+    padding: 20px 20px 0;
+    p{
+        background: @verde;
+        border-radius:2px;
+        box-sizing: border-box;
+        padding: 20px;
+        img{
+            border-radius: 4px;
+            box-shadow: 3px 3px 0px rgba(255,255,255,0.8);
+        }
+    }
+
 }
+
+.atracoes .box {
+    position: relative;
+    p{
+        font-size: 260%;
+        height: 175px;
+        padding: 20px 210px 20px 20px;
+        img{
+            position: absolute;
+            top: 30px;
+            right: 50px;
+        }
+    }
+}
+
+/* =============================================================================
+   NEWSLETTER
+   ========================================================================== */
 
 
 /* =============================================================================
@@ -228,6 +264,17 @@ nav {
     text-align: center;
     color: #ccc;
     margin-top: 20px;
+    p{
+        font-size: 100%;
+    }
+}
+
+.wlogos{
+    img{
+        width: 30%;
+        display: block;
+        margin: 6em auto;
+    }
 }
 
 .organizacao{
