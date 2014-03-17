@@ -9,11 +9,11 @@ module.exports = {
     conf: {
       name: "Web.br 2014",
       description: "Conferência Web W3C Brasil 2014",
-      //date: "November 15",
+      date: "Setembro 25 e 26",
       // If your event is free, just comment this line
       //price: "$100",
-      //venue: "Coco Bongo",
-      //address: "Boulevard Kukulcan, 30",
+      venue: "Blue Tree Premium Morumbi",
+      address: "Av. Roque Petroni Junior, 1000",
       city: "São Paulo",
       state: "SP"
     },
@@ -30,7 +30,7 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      //'location',
+      'location',
       //'speakers',
       //'schedule',
       //'sponsors',
@@ -41,12 +41,12 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "Sobre",
-      location: "Location",
+      location: "Local",
       speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      schedule: "Agenda",
+      sponsors: "Patrocínio",
+      partners: "Apoio",
+      contact: "Contato"
     },
 
     // The entire schedule

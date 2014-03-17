@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="200px" x="0px" y="0px" background="new 0 0 100 200"  xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="400px" x="0px" y="0px" background="new 0 0 100 200"  xml:space="preserve">
   <defs>
-    <linearGradient id="myLinearGradient1"
+    <linearGradient id="vermelho"
+                    x1="0%" y1="0%"
+                    x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ef4135" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#bf311a" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="amarelo"
                     x1="0%" y1="0%"
                     x2="0%" y2="100%">
       <stop offset="0%"   stop-color="#f9c667" stop-opacity="1"/>
       <stop offset="80%" stop-color="#f79621" stop-opacity="1"/>
-    </linearGradient>
+      </linearGradient>
   </defs>
-
   <g>
-    <path
-        d="
-           M1,0
-           L1,
-           84.666672l21,
-           -21.333344l20.666656,
-           20.666672-0.333328,
-           -84l-41,
-           0z"
-        transform="scale(2)"
+    <g>
+        <path
+            d="M3,0
+               L3,205
+               l50,-50,
+               l50,50
+               l0,-205
+               z"
         style="fill: #ab2c2c;"/>
-      <path
-        d="
-           M0,0
-           L0,
-           84.666672l21,
-           -21.333344l20.666656,
-           20.666672l-0.333328,
-           -84l-41.33332,
-           0z"
-        transform="scale(2)"
-        style="fill: url(#myLinearGradient1);"/>
+    </g>
+   <g>
+        <path
+            d="M1,0
+               L1,200
+               l50,-50,
+               l50,50
+               l0,-200
+               z"
+        style="fill: url(#amarelo);"/>
+    </g>
   </g>
 </svg>
