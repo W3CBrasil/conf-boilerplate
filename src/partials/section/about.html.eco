@@ -49,7 +49,7 @@
 </article>
 <aside class="about-col right">
     <div class="embed-container">
-        <iframe src="//www.youtube.com/embed/Vd8TZGgkgO0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="//www.youtube.com/embed/Vd8TZGgkgO0" allowfullscreen></iframe>
     </div>
     <section class="box sobre">
         <h2><%= @labels['about'] %></h2>
