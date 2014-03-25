@@ -1,4 +1,4 @@
-<article class="about-cols">
+<article class="about-col left">
     <section class="atracoes">
         <div class="box">
             <h2>Atrações das edições anteriores</h2>
@@ -6,49 +6,51 @@
         <div class="box fernanda">
             <h3>Fernanda Weiden <span class="y-ribbon"><em>2013</em></span></h3>
             <p>
-                Gerente de Engenharia de Produção no Facebook
                 <img src="themes/webbr2014-lp/img/fernanda_weiden.jpg" alt="Fernanda Weiden">
+                Gerente de Engenharia de Produção no Facebook
             </p>
         </div>
         <div class="box kris">
             <h3>Kris Borchers <span class="y-ribbon"><em>2013</em></span></h3>
             <p>
-                Diretor Executivo na jQuery Foundation
                 <img src="themes/webbr2014-lp/img/kris_borchers.jpg" alt="Kris Borchers">
+                Diretor Executivo na jQuery Foundation
             </p>
         </div>
         <div class="box jeanne">
             <h3>Jeanne Holm <span class="y-ribbon"><em>2012</em></span></h3>
             <p>
-                Arquiteta Chefe de Sistema do Jet Propulsion Laboratory da NASA
                 <img src="themes/webbr2014-lp/img/jeanne.jpg" alt="Jeanne Holm">
+                Arquiteta Chefe de Sistema do Jet Propulsion Laboratory da NASA
             </p>
         </div>
         <div class="box jeanne">
             <h3>Philippe Le Hégaret <span class="y-ribbon"><em>2011</em></span></h3>
             <p>
-                Interaction Domain Leader, W3C
                 <img src="themes/webbr2014-lp/img/philippe.jpg" alt="Philippe Le Hégaret">
+                Interaction Domain Leader, W3C
             </p>
         </div>
         <div class="box demi">
             <h3>Demi Getschko <span class="y-ribbon"><em>2010</em></span></h3>
             <p>
-                Presidente do NIC.br
                 <img src="themes/webbr2014-lp/img/demigetschko.jpg" alt="Demi Getschko">
+                Presidente do NIC.br
             </p>
         </div>
         <div class="box demi">
             <h3>Anne van Kesteren <span class="y-ribbon"><em>2009</em></span></h3>
             <p>
-                Editor do HTML5, trabalha para Opera Software, Limpid e Q42.
                 <img src="themes/webbr2014-lp/img/anne-van-kesteren.jpg" alt="Anne van Kesteren">
+                Editor do HTML5, trabalha para Opera Software, Limpid e Q42.
             </p>
         </div>
     </section>
 </article>
-<aside class="about-cols">
-    <iframe width="371" height="240" src="//www.youtube.com/embed/Vd8TZGgkgO0" frameborder="0" allowfullscreen></iframe>
+<aside class="about-col right">
+    <div class="embed-container">
+        <iframe src="//www.youtube.com/embed/Vd8TZGgkgO0" frameborder="0" allowfullscreen></iframe>
+    </div>
     <section class="box sobre">
         <h2><%= @labels['about'] %></h2>
         <p>A World Wide Web é importante no desenvolvimento social e econômico através da disseminação de informação, cultura, e geração de novos negócios no pais. Um dos eventos mais importantes na área, a Conferência Web.br debate temáticas que impactam a sociedade e que contribuem para a conscientização da importância do seu desenvolvimento permanente e continuado.</p>
@@ -63,8 +65,10 @@
             <li><a href="http://conferenciaweb.w3c.br/2009">2009</a></li>
         </ul>
     </section>
+    <!-- TWIITER -->
+    <div class="embed-container">
+        <a class="twitter-timeline" href="https://twitter.com/search?q=%23web25" data-widget-id="445660398474104833">Tweets sobre "#web25"</a>
+    </div>
     <!-- FACEBOOK -->
     <div class="fb-like-box" data-href="https://www.facebook.com/W3CWebbr" data-width="370" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-    <!-- TWIITER -->
-    <a class="twitter-timeline" href="https://twitter.com/search?q=%23web25" data-widget-id="445660398474104833">Tweets sobre "#web25"</a>
 </aside>

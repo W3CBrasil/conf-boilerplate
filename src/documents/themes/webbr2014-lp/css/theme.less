@@ -57,31 +57,33 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 .logo-name {
   font-size: 6em;
   background: url(../img/logo.svg) no-repeat 0 0;
-  width: 400px;
-  height: 210px;
+  width: 385px;
+  height: 190px;
   text-indent: -9999px;
 }
 
 .slogan{
     color: #fff;
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+    display: inline-block;
     font-family: 'Swanky and Moo Moo', cursive;
-    letter-spacing: 0.06em;
-    font-style: italic;
-    float: left;
-    padding-left: 22px;
-    line-height: 28px;
     font-size: 4.3em;
+    font-style: italic;
+    letter-spacing: 0.06em;
+    line-height: 48px;
+    padding: 10px 22px 0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 .data{
-    float: right;
     box-sizing: border-box;
-    font-family: 'Francois One', sans-serif;
-    font-size: 5em;
-    text-shadow: 2px 2px 0px @header-light;
     color: #222;
-    padding-right: 5%;
+    float: right;
+    font-family: 'Francois One', sans-serif;
+    font-size: 500%;
+    line-height: 54px;
+    text-shadow: 2px 2px 0px #d64b4b;
+    text-align: right;
+    min-width: 40%;
 }
 
 .ribbon {
@@ -89,7 +91,7 @@ nav {.gradient-2clr(#2b2b2b, #222);}
     height: 205px;
     width: 116px;
     top: -50px;
-    right: 5%;
+    right: 0;
     background: url(../img/ribbon.svg) no-repeat 0 0;
     padding: 100px 0 0 16px;
     box-sizing: border-box;
@@ -151,8 +153,6 @@ nav {.gradient-2clr(#2b2b2b, #222);}
     }
 }
 
-.about-cols{}
-
 .about .box{
     background: @azul;
     margin-bottom: 25px;
@@ -182,26 +182,27 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 }
 
 .y-ribbon em{
-    .gradient-2clr(#f9c667, #f79621);
-    font-family: 'Francois One', sans-serif;
-    color: @rib-txt;
-    text-shadow: 1px 1px 0 @rib-txt-sh;
-    font-size: 14px;
-    position: absolute;
-    .rotate(45deg);
-    z-index: 1;
-    font-size: 0.7em;
-    padding: 0 58px;
-    display: block;
-    font-style: normal;
     box-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+    color: @rib-txt;
+    display: block;
+    font-family: 'Francois One', sans-serif;
+    font-size: 0.7em;
+    font-style: normal;
+    left: -10px;
+    padding: 0 70px;
+    position: absolute;
+    text-shadow: 1px 1px 0 @rib-txt-sh;
+    top: 0px;
+    z-index: 1;
+    .gradient-2clr(#f9c667, #f79621);
+    .rotate(45deg);
 }
 
 .atracoes .box {
     position: relative;
     p{
         font-size: 260%;
-        height: 175px;
+        min-height: 175px;
         padding: 20px 210px 20px 20px;
         img{
             position: absolute;
@@ -228,10 +229,6 @@ nav {.gradient-2clr(#2b2b2b, #222);}
             text-decoration: none;
         };
     }
-}
-
-.fb-like-box{
-    margin-bottom: 20px;
 }
 
 /* =============================================================================
@@ -347,9 +344,7 @@ nav {.gradient-2clr(#2b2b2b, #222);}
     text-align: center;
     color: #ccc;
     margin-top: 20px;
-    p{
-        font-size: 100%;
-    }
+    p{font-size: 100%;}
 }
 
 .wlogos{
@@ -361,6 +356,10 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 }
 
 .organizacao{
+    img{
+        width: 100%;
+        max-width: 600px;
+    }
     &::before{
         content: 'Organização:';
         float: left;
@@ -371,12 +370,51 @@ nav {.gradient-2clr(#2b2b2b, #222);}
    ========================================================================== */
 
 @media only screen and (max-width : 1024px) {
-  .header {
-    background-size: auto 100%;
-  }
+  .header {background-size: auto 100%;}
+
+  .atracoes .box p {
+        min-height: 245px;
+        img{top: 100px;}
+    }
 }
+
+@media only screen and (max-width: 800px) {
+     .data{
+        float: none;
+        text-align: left;
+        padding-left: 20px;
+     }
+
+    .atracoes .box p {
+        min-height: 235px;
+        padding: 20px 20px 20px 200px;
+        img{
+            left: 40px;
+            top: 80px;
+        }
+    }
+
+    .about-col, .about{
+        display: block;
+        .left, .right {
+            width: 100%;
+            padding-left: 0;
+        }
+    }
+}
+
+@media only screen and (max-width : 535px) {
+ .wrapper{min-width: 535px;}
+
+ .header{padding: 80px 0 110px !important;}
+
+
+ .newsletter input[type="email"] {width: 70%;}
+}
+
 @media only screen and (max-width : 480px) {
   /* speakers */
+  .header {padding: 50px 0 120px;}
   .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
   .speech-title {font-weight: bolder;}
   .speech-time {
