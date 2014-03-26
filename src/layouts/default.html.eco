@@ -42,15 +42,6 @@
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
-            <section class="wlogos">
-                <a href="http://www.webat25.org/" role="link"><img src="themes/webbr2014-lp/img/web25-logo.svg" alt="Web 25 anos"></a>
-                <a href="http://www.w3.org/" role="link"><img src="themes/webbr2014-lp/img/w3c20-logo.svg" alt="W3C 20 anos"></a>
-            </section>
-            <section>
-                <a href="http://www.w3c.br" role="link"><img src="themes/webbr2014-lp/img/w3cbr.png" alt="W3C Brasil"></a>
-                <a href="http://nic.br" role="link"><img src="themes/webbr2014-lp/img/nicbr.png" alt="NIC.br"></a>
-                <a href="http://cgi.br" role="link"><img src="themes/webbr2014-lp/img/cgibr.png" alt="CGI.br"></a>
-            </section>
             <p>Made with ♥ by <a href="http://confboilerplate.com">Conf Boilerplate</a> :)</p>
         </footer>
         <!-- / FOOTER -->

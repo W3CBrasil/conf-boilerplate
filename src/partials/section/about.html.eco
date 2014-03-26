@@ -66,9 +66,9 @@
         </ul>
     </section>
     <!-- TWIITER -->
-    <div class="embed-container" role="application" aria-label="Widget do Twitter">
+   <!--  <div class="embed-container" role="application" aria-label="Widget do Twitter">
         <a class="twitter-timeline" href="https://twitter.com/search?q=%23web25" data-widget-id="445660398474104833">Tweets sobre "#web25"</a>
-    </div>
+    </div> -->
     <!-- FACEBOOK -->
-    <div class="fb-like-box" data-href="https://www.facebook.com/W3CWebbr" data-width="370" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true" role="application" aria-label="Widget do Facebook"></div>
+    <!-- <div class="fb-like-box" data-href="https://www.facebook.com/W3CWebbr" data-width="370" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true" role="application" aria-label="Widget do Facebook"></div> -->
 </aside>

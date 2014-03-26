@@ -10,16 +10,6 @@
 @verde: #7AC143;
 @azul: #0078AE;
 
-/* topo verde */
-/*@header-light: #7AC143;
-@header-dark: #387C00;
-@rib-txt-sh: #FF9696;
-@rib-txt: #4F0D0B;
-@pontoBR: #5a9f22;
-*/
-
-
-
 /* =============================================================================
    MAIN LAYOUT
    ========================================================================== */
@@ -143,7 +133,8 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about{
+.about,
+.speakers-list{
     color: #fff;
     text-shadow: 2px 1px 0px rgb(90,159,34);
 
@@ -153,7 +144,8 @@ nav {.gradient-2clr(#2b2b2b, #222);}
     }
 }
 
-.about .box{
+.about .box,
+.speakers-list .speakers-item{
     background: @azul;
     margin-bottom: 25px;
     box-sizing: border-box;
@@ -172,30 +164,30 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 
 }
 
-.y-ribbon{
+.y-ribbon,
+.speech-time{
     position: absolute;
     clip: rect(-20px, 124px, 90px, 0px);
     top: 20px;
     right: 124px;
     display: block;
     background-color: black;
-}
-
-.y-ribbon em{
-    box-shadow: 2px 2px 0 rgba(0,0,0,0.3);
-    color: @rib-txt;
-    display: block;
-    font-family: 'Francois One', sans-serif;
-    font-size: 0.7em;
-    font-style: normal;
-    left: -10px;
-    padding: 0 70px;
-    position: absolute;
-    text-shadow: 1px 1px 0 @rib-txt-sh;
-    top: 0px;
-    z-index: 1;
-    .gradient-2clr(#f9c667, #f79621);
-    .rotate(45deg);
+    em{
+        box-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+        color: @rib-txt;
+        display: block;
+        font-family: 'Francois One', sans-serif;
+        font-size: 0.7em;
+        font-style: normal;
+        left: -10px;
+        padding: 0 70px;
+        position: absolute;
+        text-shadow: 1px 1px 0 @rib-txt-sh;
+        top: 0px;
+        z-index: 1;
+        .gradient-2clr(#f9c667, #f79621);
+        .rotate(45deg);
+    }
 }
 
 .atracoes .box {
@@ -284,7 +276,7 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speaker-photo .photo {
+/*.speaker-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0,0,0,.07);
   .transition(all 0.3s ease-out);
@@ -294,7 +286,7 @@ nav {.gradient-2clr(#2b2b2b, #222);}
   color:#fff;
   background:#2b2b2b;
   border-radius: 8px;
-}
+}*/
 
 /* =============================================================================
    SCHEDULE
@@ -319,11 +311,11 @@ nav {.gradient-2clr(#2b2b2b, #222);}
    SPONSORS
    ========================================================================== */
 .sponsor-link, .partner-link {
-  background: #fff;
+ /* background: #fff;
   border: 1px solid #ccc;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);*/
 }
-.sponsor-link:hover, .sponsor-link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
+.sponsor-link:hover, .sponsor-link:focus, .partner-link:hover, .partner-link:focus {border-color: @header-light}
 
 
 /* =============================================================================
@@ -341,29 +333,7 @@ nav {.gradient-2clr(#2b2b2b, #222);}
    FOOTER
    ========================================================================== */
 .footer{
-    text-align: center;
-    color: #ccc;
-    margin-top: 20px;
     p{font-size: 100%;}
-}
-
-.wlogos{
-    img{
-        width: 30%;
-        display: block;
-        margin: 6em auto;
-    }
-}
-
-.organizacao{
-    img{
-        width: 100%;
-        max-width: 600px;
-    }
-    &::before{
-        content: 'Organização:';
-        float: left;
-    }
 }
 /* =============================================================================
    Media Queries
@@ -408,8 +378,14 @@ nav {.gradient-2clr(#2b2b2b, #222);}
 
  .header{padding: 80px 0 110px !important;}
 
-
  .newsletter input[type="email"] {width: 70%;}
+
+ .organizacao{
+    img{
+        display: block;
+        margin: 20px auto;
+    }
+  }
 }
 
 @media only screen and (max-width : 480px) {
@@ -422,5 +398,4 @@ nav {.gradient-2clr(#2b2b2b, #222);}
     background: transparent;
     font-weight: bolder;
   }
-  .github-link { display: none; }
 }
