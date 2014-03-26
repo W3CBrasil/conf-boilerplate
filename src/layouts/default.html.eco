@@ -37,14 +37,14 @@
     <%-@partial('header.html.eco', @)%>
 
     <!-- CONTENT -->
-    <div class="content" id="content">
+    <div class="content" id="content" role="main">
       <div class="wrapper">
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
             <section class="wlogos">
-                <img src="themes/webbr2014-lp/img/web25-logo.svg" alt="Web 25 anos">
-                <img src="themes/webbr2014-lp/img/w3c20-logo.svg" alt="W3C 20 anos">
+                <a href="http://www.webat25.org/" role="link"><img src="themes/webbr2014-lp/img/web25-logo.svg" alt="Web 25 anos"></a>
+                <a href="http://www.w3.org/" role="link"><img src="themes/webbr2014-lp/img/w3c20-logo.svg" alt="W3C 20 anos"></a>
             </section>
             <section>
                 <a href="http://cgi.br/" class="organizacao"><img src="themes/webbr2014-lp/img/logo_w3c_nic_cgi.png" alt="W3C Brasil, NIC.br, CGI.br"></a>

@@ -48,7 +48,7 @@
     </section>
 </article>
 <aside class="about-col right">
-    <div class="embed-container">
+    <div class="embed-container" role="application" aria-label="Player de vídeo">
         <iframe src="//www.youtube.com/embed/Vd8TZGgkgO0" allowfullscreen></iframe>
     </div>
     <section class="box sobre">
@@ -57,18 +57,18 @@
     </section>
     <section class="box edicoes">
         <h2>Edições anteriores</h2>
-        <ul>
-            <li><a href="http://conferenciaweb.w3c.br/2013">2013</a></li>
-            <li><a href="http://conferenciaweb.w3c.br/2012">2012</a></li>
-            <li><a href="http://conferenciaweb.w3c.br/2011">2011</a></li>
-            <li><a href="http://conferenciaweb.w3c.br/2010">2010</a></li>
-            <li><a href="http://conferenciaweb.w3c.br/2009">2009</a></li>
+        <ul role="list">
+            <li role="listitem"><a href="http://conferenciaweb.w3c.br/2013">2013</a></li>
+            <li role="listitem"><a href="http://conferenciaweb.w3c.br/2012">2012</a></li>
+            <li role="listitem"><a href="http://conferenciaweb.w3c.br/2011">2011</a></li>
+            <li role="listitem"><a href="http://conferenciaweb.w3c.br/2010">2010</a></li>
+            <li role="listitem"><a href="http://conferenciaweb.w3c.br/2009">2009</a></li>
         </ul>
     </section>
     <!-- TWIITER -->
-    <div class="embed-container">
+    <div class="embed-container" role="application" aria-label="Widget do Twitter">
         <a class="twitter-timeline" href="https://twitter.com/search?q=%23web25" data-widget-id="445660398474104833">Tweets sobre "#web25"</a>
     </div>
     <!-- FACEBOOK -->
-    <div class="fb-like-box" data-href="https://www.facebook.com/W3CWebbr" data-width="370" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+    <div class="fb-like-box" data-href="https://www.facebook.com/W3CWebbr" data-width="370" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true" role="application" aria-label="Widget do Facebook"></div>
 </aside>

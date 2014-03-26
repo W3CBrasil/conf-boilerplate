@@ -1,5 +1,5 @@
 <!-- NAVIGATION -->
-<nav id="nav">
+<nav id="nav" role="navigation">
   <ul class="wrapper">
     <% for section in @sections : %>
       <li class="nav-item">
@@ -8,5 +8,4 @@
     <% end %>
   </ul>
 </nav>
-
 <hr>
